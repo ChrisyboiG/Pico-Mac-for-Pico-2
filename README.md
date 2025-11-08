@@ -28,7 +28,8 @@ mkdir incbin
 xxd -i < rom.bin > incbin/umac-rom.h
 
 # When using an internal disc image:
-# Also if using an internal disc image then remove the -DUSE_SD=true part of the cmake command coming up. You will need to place your disc.bin into the pico-mac folder, i haven't actually used this method so I don't have all the info required for how to get this disc.bin file.
+# Also if using an internal disc image then remove the -DUSE_SD=true part of the cmake command coming up. You will need to place your disc.bin into the pico-mac folder.
+# Note: I haven't actually used this method so I don't have all the info required for how to get this disc.bin file.
 xxd -i < disc.bin > incbin/umac-disc.h
 # When using an SD card for disc image:
 echo > incbin/umac-disc.h
