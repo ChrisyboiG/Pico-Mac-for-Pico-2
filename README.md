@@ -3,6 +3,9 @@ This repository provides a guide on compiling the Pico Mac project by TechByAndr
 
 This is a guide for Linux, if you are using Windows then it is recommended that you use WSL.  
 
+This project requires Pico SDK to work, use this repository to find how to install it.  
+https://github.com/raspberrypi/pico-sdk  
+
 To compile Pico Mac for Pico 2 first clone the repository:  
 ```
 git clone https://github.com/TechByAndroda/pico-mac.git --recursive  
